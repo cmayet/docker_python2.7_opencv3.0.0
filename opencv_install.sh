@@ -22,7 +22,7 @@ apt-get install -y --no-install-recommends python python-pip \
                                            unzip
 
 pip install --upgrade pip
-pip install numpy
+pip install numpy==1.11.3
 mkdir softs 
 cd softs 
 wget --no-check-certificate https://codeload.github.com/opencv/opencv/zip/3.0.0 
